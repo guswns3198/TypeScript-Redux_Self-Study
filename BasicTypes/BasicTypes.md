@@ -7,8 +7,8 @@
 
 :small_blue_diamond: Primitive형의 내장함수 사용 가능한건 자바스크립트 처리 방식 덕분
 
-:::success
+```
 let name = 'James' // name.toString()
-:::
+```
 
 :small_blue_diamond: boolean, number, string, symbol, null, undefined ...
