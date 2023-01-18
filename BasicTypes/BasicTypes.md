@@ -19,3 +19,14 @@ let name = 'James' // name.toString()
 2. TS는 16진수 및 10진수 리터럴 외에도 2진수와 8진수를 지원
 3. NAN
 4. 1_000_000과 같은 표기 가능
+
+## :pencil2: String
+
+1. 다른 언어와 마찬가지로 텍스트 형식을 참조하기 위해 'string' 형식 사용
+2. JS와 마찬가지로 TS는 문자열 데이터를 둘러싸기 위해 큰 따옴표, 작은 따옴표 사용
+
+```
+let name: string = "James" // name = 'Mark'
+```
+
+3. Template String 사용 가능
