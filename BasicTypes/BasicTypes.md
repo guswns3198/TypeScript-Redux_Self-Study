@@ -30,3 +30,12 @@ let name: string = "James" // name = 'Mark'
 ```
 
 3. Template String 사용 가능
+
+## :pencil2: Symbol
+
+1. ECMAscript 2015의 Symbol
+2. new Symbol로 사용 불가능
+3. Symbol을 함수로 사용하여 symbol 타입을 만들어낼 수 있다.
+4. Primitive 타입의 값을 담아서 사용
+5. 고유하고 수정 불가능한 값으로 만들어 준다.
+6. 주로 접근을 제어하는데 쓰는 경우가 많았다.
