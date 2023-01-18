@@ -12,3 +12,10 @@ let name = 'James' // name.toString()
 ```
 
 :small_blue_diamond: boolean, number, string, symbol, null, undefined ...
+
+## :pencil2: Number
+
+1. JS와 같이 TS의 모든 숫자는 부동 소수점 값
+2. TS는 16진수 및 10진수 리터럴 외에도 2진수와 8진수를 지원
+3. NAN
+4. 1_000_000과 같은 표기 가능
