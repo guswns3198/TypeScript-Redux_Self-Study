@@ -8,5 +8,5 @@
 ```
 let list: number[] = [1, 2, 3, 4, 5];
 
-let list: Array<number> = [1, 2, 3, 4, 5];
+let list: Array<number> = [6, 7, 8];
 ```
