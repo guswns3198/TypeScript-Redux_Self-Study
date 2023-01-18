@@ -61,6 +61,6 @@ let n: null = null;
 
 ## :pencil2: undefined
 
-1. 값을 할당하지 않은 변수는 undefined 라는 값을 가진다.
+1. 값을 할당하지 않은 변수는 undefined라는 값을 가진다.
 2. 무언가가 준비되지 않은 상태이며 object의 property가 없을 때에도 undefined 이다.
 3. 런타임에서 typeof 연산자 사용 시 undefined가 나온다.
