@@ -35,12 +35,37 @@ console.log(apple(-5)); // undefined, 함수의 리턴 타입이 number | undefi
 
 // 명시적으로 리턴 타입을 지정할 경우
 
-// function banana(a: number): number {
-//   if (b > 0) {
-//     return a * 5;
-//   }
-// }
+function banana(a: number): number {
+  if (b > 0) {
+    return a * 5;
+  }
+}
 
 // 위 함수는 if부분만 리턴되기 때문에 if가 아닌 부분에도 작업이 덜 되었다는 Error가 뜨게 됨
 // noImplicitReturns 옵션을 키게되면 함수 내에서 모든 코드가 값을 리턴하지 않을 시 컴파일 에러를 발생시킴
+
+
+
+// ----------------------------------------------------------------
+
+
+// 매개변수에 object가 들어오는 경우
+
+function pair(a) {
+  return `이름은 ${a.name} 이고, 연령대는 ${Math.floor(a.age / 10) * 10}대 입니다.`
+}
+
+console.log(pair({ name: 'James', age: 28 })); // 이름은 James 이고, 연령대는 20대 입니다.
+
+console.log(pair('James')); // 이름은 undefined 이고, 연령대는 NaN 입니다.
+
+// 즉 위 함수는 에러를 발생시키기에 아래처럼 object literal type으로 a의 타입을 지정해야함
+
+function pair2(a: { name: string, age: number }): string {
+  return `이름은 ${a.name} 이고, 연령대는 ${Math.floor(a.age / 10) * 10}대 입니다.`
+}
+
+console.log(pair({ name: 'James', age: 28 })); // 이름은 James 이고, 연령대는 20대 입니다.
+
+console.log(pair('James')); // error : Argument of type 'string' is not assignable to parameter of type '{ name: string; age: number;}'
 
