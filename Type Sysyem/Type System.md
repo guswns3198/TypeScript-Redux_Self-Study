@@ -1,9 +1,9 @@
 # TypeScript
 
 
-## :triangular_flag_on_post: Type Sysyem
+## :triangular_flag_on_post: Type System
 
-## :pencil2: Type Sysyem
+## :pencil2: Type System
 
 :small_blue_diamond: 컴파일러에게 사용하는 타입을 명시적으로 지정하는 시스템
 
