@@ -6,7 +6,8 @@
 
 ```
 "typeRoots": {
-    "description": "Specify multiple folders that act like `./node_modules/@types`.", // 다른 폴더도 지정해서 쓰고싶을 때 typeRoots에 배열로 추가해서 사용
+    "description": "Specify multiple folders that act like `./node_modules/@types`.",
+    // 다른 폴더도 지정해서 쓰고싶을 때 typeRoots에 배열로 추가해서 사용
     "type": "array",
     "uniqueItems": true,
     "items": {
@@ -17,8 +18,8 @@ https://www.typescriptlang.org/tsconfig#typeRoots"
 },
 
 "types": {
-    "description": "Specify type package names to be included without being referenced in a source // 패키지의 경로가 아닌 이름을 써줘야 함 ex) react
-file.",
+    "description": "Specify type package names to be included without being referenced in a source file.",
+    // 패키지의 경로가 아닌 이름을 써줘야 함 ex) react
     "type": "array",
     "uniqueItems": true,
     "items": {
