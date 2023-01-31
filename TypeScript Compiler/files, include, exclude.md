@@ -13,5 +13,5 @@
 
 ## :pencil2: exclude
 - glob 패턴
-- 설정 안하면 4가지 (node_modules, bower_components, jspm_packages, <outDir>)를 default로 제외
-- <outDir>은 항상 제외 (include에 포함되어 있어도)
+- 설정 안하면 4가지 (node_modules, bower_components, jspm_packages, outDir)를 default로 제외
+- outDir은 항상 제외 (include에 포함되어 있어도)
