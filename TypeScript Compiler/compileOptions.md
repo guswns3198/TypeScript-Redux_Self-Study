@@ -106,3 +106,8 @@ compileOptions : lib
 "DOM.Iterable", "ScriptHost", "WebWorker", "WebWorker.ImportScripts"
 ]
 ```
+
+--------------------------------------------------------
+
+## :pencil2: outDir, outFile, rootDir
+
