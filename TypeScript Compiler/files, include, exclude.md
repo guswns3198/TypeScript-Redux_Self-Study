@@ -9,7 +9,7 @@
 ## :pencil2: include
 - glob 패턴
 - exclude보다 서열이 낮음
-- *같은걸 사용하면 .ts / .tsx / .d.ts만 include
+- *같은걸 사용하면 .ts / .tsx / .d.ts 파일만 include (js도 포함시킬거면 allowJs)
 
 ## :pencil2: exclude
 - glob 패턴
