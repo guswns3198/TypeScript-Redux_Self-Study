@@ -6,7 +6,7 @@
 
 ```
 "typeRoots": {
-    "description": "Specify multiple folders that act like `./node_modules/@types`.",
+    "description": "`./node_modules/@types`처럼 작동하는 여러 폴더 지정",
     // 다른 폴더도 지정해서 쓰고싶을 때 typeRoots에 배열로 추가해서 사용
     "type": "array",
     "uniqueItems": true,
@@ -18,7 +18,7 @@ https://www.typescriptlang.org/tsconfig#typeRoots"
 },
 
 "types": {
-    "description": "Specify type package names to be included without being referenced in a source file.",
+    "description": "소스 파일에서 참조하지 않고 포함할 유형 패키지 이름 지정",
     // 패키지의 경로가 아닌 이름을 써줘야 함 ex) react
     "type": "array",
     "uniqueItems": true,
@@ -34,6 +34,7 @@ source file.\n\nSee more: https://www.typescriptlang.org/tsconfig#types"
 --------------------------------------------------------
 
 ## :pencil2: @types
+
 - TypeScript 2.0부터 사용 가능해진 내장 type definition 시스템
 - 아무설정도 안하면 node_modules/@types 라는 모든 경로를 찾아서 사용
 - typeRoots를 사용하면 배열 안에 들어있는 경로들 아래에서만 가져온다.
@@ -53,7 +54,7 @@ source file.\n\nSee more: https://www.typescriptlang.org/tsconfig#types"
 ```
 "target": {
 compileOptions : target
-  "description": "Set the JavaScript language version for emitted JavaScript and include compatible library declarations."
+  "description": "내보낸 JavaScript의 JavaScript 언어 버전을 설정하고 호환 가능한 라이브러리 선언을 포함"
   "type": "string",
   "default": "ES3",
   // 따로 target 설정안하면 ES3에서 돌릴 수 있는 형태로 자바스크립트가 만들어짐
@@ -87,7 +88,7 @@ compileOptions : target
 ```
 "lib": {
 compileOptions : lib
-    "description": "Specify a set of bundled library declaration files that describe the target runtime environment.",
+    "description": "대상 런타임 환경을 설명하는 번들 라이브러리 선언 파일 세트 지정",
     "type": "array",
     "uniqueItems": true,
     "items": {
@@ -130,5 +131,21 @@ https://www.typescriptlang.org/tsconfig#outDir"
     "type": "string",
     "markdownDescription": "Specify the root folder within your source files.\n\nSee more:
 https://www.typescriptlang.org/tsconfig#rootDir"
+}
+```
+
+--------------------------------------------------------
+
+## :pencil2: strict
+
+```
+{
+  "strict": {
+      "description": "모든 엄격한 유형 검사 옵션 활성화",
+      "type": "boolean",
+      "default": false,
+      "markdownDescription": "Enable all strict type checking options.\n\nSee more:
+  https://www.typescriptlang.org/tsconfig#strict"
+  }
 }
 ```
