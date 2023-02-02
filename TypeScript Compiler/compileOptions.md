@@ -153,10 +153,46 @@ https://www.typescriptlang.org/tsconfig#rootDir"
 
 ## :pencil2: strict options
 
---noImplicitAny : 
---noImplicitThis
---strictNullChecks
---strictFunctionTypes
---strictPropertyInitialization
---strictBindCallApply
---alwaysStrict
+- --noImplicitAny
+
+1. 명시적이지 않게 any 타입을 사용하여 표현식과 선언식에 사용 시 에러를 발생
+2. 타입스크립트가 추론을 실패한 경우 any가 맞으면 any라고 지정
+3. 아무것도 쓰지 않을 시 에러를 발생
+4. 이 오류를 해결 후 any라고 지정되어 있지 않은 경우엔 any가 아닌 것 (타입추론이 되었기 때문)
+
+--------------------------------------------------------
+- --noImplicitThis
+
+1. 명시적이지 않게 any 타입을 사용하여 this 표현식에 사용하면 에러를 발생
+2. 첫번째 매개변수 자리에 this를 놓고 this에 대한 타입을 어떤 것도 표현하지 않으면 noImplicitAny가 오류를 발생시킴
+3. Js에선 매개변수에 this를 넣으면 이미 예약된 키워드라 SyntaxError를 발생
+4. call / apply / bind 와 같이 this를 대체하여 함수 콜을 하는 용도로도 쓰임
+5. 그래서 this를 any로 명시적으로 지정하는 것은 합리적이다.
+
+--------------------------------------------------------
+- --strictNullChecks
+
+1. 이 모드에서는 null 및 undefined 값이 모든 유형의 도메인에 속하지 않고 그 자신을 타입으로 가지거나 any일 경우에만 할당이 가능
+2. 한가지 예외는 undefined에 void 할당 가능
+3. 이걸 적용하지 않으면 모든 타입은 null 및 undefined 값을 가질 수 있음
+4. string으로 타입을 지정해도 null 혹은 undefined 값을 할당할 수 있다는 뜻
+
+--------------------------------------------------------
+- --strictFunctionTypes
+
+1. 
+2. 
+3. 
+4. 
+
+
+--------------------------------------------------------
+- --strictPropertyInitialization
+
+
+--------------------------------------------------------
+- --strictBindCallApply
+
+
+--------------------------------------------------------
+- --alwaysStrict
