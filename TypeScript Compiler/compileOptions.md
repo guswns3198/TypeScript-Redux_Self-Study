@@ -191,6 +191,9 @@ https://www.typescriptlang.org/tsconfig#rootDir"
 --------------------------------------------------------
 - --strictBindCallApply
 
+1. bind, call, apply에 대한 더욱 엄격한 검사 수행
+2. bind는 해당 함수 내에서 사용할 this와 인자를 설정해주는 역할을 하고 call과 apply는 this와 인자를 설정한 후, 실행까지 함
+3. call은 함수의 인자를 여러 인자의 나열로 넣어서 사용하고 apply는 모든 인자를 배열 하나로 넣어서 사용
 
 --------------------------------------------------------
 - --alwaysStrict
