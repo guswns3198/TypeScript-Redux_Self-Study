@@ -111,3 +111,24 @@ compileOptions : lib
 
 ## :pencil2: outDir, outFile, rootDir
 
+```
+"outFile": {
+    "description": "모든 출력을 하나의 Js 파일로 묶는 파일을 지정",
+    "type": "string",
+    "markdownDescription": "Specify a file that bundles all outputs into one JavaScript file. If
+`declaration` is true, also designates a file that bundles all .d.ts output.\n\nSee more:
+https://www.typescriptlang.org/tsconfig#outFile"
+  },
+  "outDir": {
+    "description": "내보낸 모든 파일의 출력 폴더 지정.",
+    "type": "string",
+    "markdownDescription": "Specify an output folder for all emitted files.\n\nSee more:
+https://www.typescriptlang.org/tsconfig#outDir"
+  },
+  "rootDir": {
+    "description": "소스 파일 내의 루트 폴더 지정.",
+    "type": "string",
+    "markdownDescription": "Specify the root folder within your source files.\n\nSee more:
+https://www.typescriptlang.org/tsconfig#rootDir"
+}
+```
