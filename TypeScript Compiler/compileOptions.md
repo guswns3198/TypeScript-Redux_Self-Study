@@ -1,6 +1,6 @@
 ## :pencil2: compileOptions
 
-아래 2개는 default 설정이 아니고 추가적으로 다른 설정을 하고 싶을 때 쓰이는 프로퍼티이다.
+아래 2개(typeRoots, types)는 default 설정이 아니고 추가적으로 다른 설정을 하고 싶을 때 쓰이는 프로퍼티이다.
 
 ## :pencil2: typeRoots, types
 
