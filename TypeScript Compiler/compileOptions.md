@@ -141,7 +141,8 @@ https://www.typescriptlang.org/tsconfig#rootDir"
 ```
 {
   "strict": {
-      "description": "모든 엄격한 유형 검사 옵션 활성화",
+      "description": "엄격하게 타입을 확인하는 옵션 활성화",
+      // strict 안에는 여러개의 엄격한 타입 체크 옵션들이 들어있는데 그걸 모두 킴
       "type": "boolean",
       "default": false,
       "markdownDescription": "Enable all strict type checking options.\n\nSee more:
@@ -149,3 +150,13 @@ https://www.typescriptlang.org/tsconfig#rootDir"
   }
 }
 ```
+
+## :pencil2: strict options
+
+--noImplicitAny : 
+--noImplicitThis
+--strictNullChecks
+--strictFunctionTypes
+--strictPropertyInitialization
+--strictBindCallApply
+--alwaysStrict
