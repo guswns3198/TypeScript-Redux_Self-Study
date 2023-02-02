@@ -193,7 +193,11 @@ https://www.typescriptlang.org/tsconfig#rootDir"
 
 1. bind, call, apply에 대한 더욱 엄격한 검사 수행
 2. bind는 해당 함수 내에서 사용할 this와 인자를 설정해주는 역할을 하고 call과 apply는 this와 인자를 설정한 후, 실행까지 함
-3. call은 함수의 인자를 여러 인자의 나열로 넣어서 사용하고 apply는 모든 인자를 배열 하나로 넣어서 사용
+3. call은 함수의 인자를 **여러 인자의 나열**로 넣어서 사용하고 apply는 **모든 인자를 배열 하나**로 넣어서 사용
 
 --------------------------------------------------------
 - --alwaysStrict
+
+1. 각 소스 파일에 대해 Js의 strict mode로 코드를 분석
+2. syntax 에러가 ts error로 나온다.
+3. 컴파일된 Js 파일에 "use strict"가 추가된다.
