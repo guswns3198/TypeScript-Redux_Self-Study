@@ -180,15 +180,13 @@ https://www.typescriptlang.org/tsconfig#rootDir"
 --------------------------------------------------------
 - --strictFunctionTypes
 
-1. 
-2. 
-3. 
-4. 
-
+1. 함수 타입에 대한 bivariant 매개변수 검사를 비활성화 하는 옵션
 
 --------------------------------------------------------
 - --strictPropertyInitialization
 
+1. 정의되지 않은 클래스의 속성이 생성자에서 초기화가 되었는지 확인
+2. 이 옵션을 사용하려면 --strictNullChecks를 사용하도록 설정해야 함
 
 --------------------------------------------------------
 - --strictBindCallApply
