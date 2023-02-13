@@ -1,7 +1,7 @@
 interface Person1 {
   name: string;
   age: number;
-} // 해당 Interface는 person에 대입할 수 있는 개체가 항상 위의 식을 충족하여야 한다.
+} // 해당 Interface는 person에 대입할 수 있는 개체가 항상 위의 식을 충족해야 함
 
 interface Person2 {
   name: string;
