@@ -1,10 +1,10 @@
-interface Person4 {
+interface Person5 {
   name: string;
   age: number;
   hello(): void;
 }
 
-const p41: Person4 = {
+const p41: Person5 = {
   name: "Mark",
   age: 39,
   hello: function(): void {
@@ -12,7 +12,7 @@ const p41: Person4 = {
   }
 };
 
-const p42: Person4 = {
+const p42: Person5 = {
   name: "Mark",
   age: 39,
   hello(): void {
