@@ -106,5 +106,5 @@ mi.b
 Type Alias에서는 Duplicate identifier(중복 식별자)로 인식하여 사용 불가능 !
 ```
 
-Type Alias => 어떤 타입을 부르는 이름
+Type Alias => 어떤 타입을 부르는 이름  
 Interface => 새로운 타입을 만들어 내는 것
