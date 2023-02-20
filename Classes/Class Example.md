@@ -1,4 +1,4 @@
-## :pencil2: Declaration Merging - interface
+## :pencil2: Declaration Merging - Classes
 
 - class 키워드를 이용하여 클래스를 만들 수 있다.
 - class 이름은 보통 대문자를 이용
