@@ -103,7 +103,7 @@ mi.a
 mi.b
 
 똑같은 이름의 Interfaces를 여려군데에서 사용해도 나중에 하나로 합쳐짐 즉 Merging 되는 것 !
-Type Alias에서는 Duplicate identifier(중복 식별자)로 인식하여 사용 불가능 !
+Type Alias에서는 Duplicate identifier(중복 식별자)로 인식하여 사용이 불가능 !
 ```
 
 Type Alias => 어떤 타입을 부르는 이름  
