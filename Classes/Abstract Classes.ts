@@ -16,4 +16,6 @@ class Person20 extends AbstractPerson {
 }
 
 const q = new Person20();
-q.setName('Yang');
+q.setName('Jun');
+
+console.log(q) // => Person20 { _name: 'Jun' }
