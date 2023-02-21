@@ -24,4 +24,4 @@ class Child extends Parent { // Child는 Parent의 생성자를 그대로 가져
 
 const newChild = new Child(29);
 
-newChild.print()
+newChild.print() // => 이름은 Hyun Jun이고, 나이는 29 입니다.
