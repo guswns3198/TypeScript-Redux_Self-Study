@@ -24,4 +24,4 @@ function helloGeneric<T>(message: T): T {
 console.log(helloGeneric('Yang'));
 console.log(helloGeneric('Yang').length); // 런타임에서 number 형식으로 나옴
 console.log(helloGeneric(true));
-// console.log(helloGeneric(28).length); 28 형식에서 length 속성이 있다고 나옴 즉, number에는 length를 쓸 수 없기 때문
+// console.log(helloGeneric(28).length); 28 형식에서 length 속성이 있다고 나옴 즉, number에는 length를 쓸 수 없기 때문에 오류가 발생
