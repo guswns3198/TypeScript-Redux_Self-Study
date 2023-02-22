@@ -12,4 +12,4 @@ new PersonClass("Yang", 28);
 
 new PersonClass<string, number>("Yang", 28);
 
-// 컴파일 타임에서 에러를 체크 가능하다.
+// 컴파일 타임에서 에러 체크 가능
