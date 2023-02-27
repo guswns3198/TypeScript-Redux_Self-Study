@@ -14,4 +14,5 @@
 }
 
 - 액션을 받아서 state를 return하는 구조
-- 인자로 들어오는 previousState와 return되는 newState는 다른 참조를 가지도록 해야 함
+- 인자로 들어오는 previousState와 return되는 newState는 다른 참조를 가지도록 해야 함 (즉, 각각이 Immutable 해야 함)
+
