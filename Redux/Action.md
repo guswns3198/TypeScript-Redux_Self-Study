@@ -18,4 +18,12 @@
 
 - 액션을 생성하는 함수를 "액션 생성자(Action Creator)" 라고 부름
 - 함수를 통해 액션을 생성하고 액션 객체를 리턴
-- createTest('hello'); // {type: 'TEST', params: 'hello'} 리턴
+- createTest('hello'); // {type: 'TEST', params: 'hello'} 리턴  
+  
+## :pencil2: Redux의 액션은 어떤 일을 할까?!
+  
+- Action 생성자를 통해 액션을 만들어 낸다.
+- 만들어낸 Action 객체를 Redux Store로 보낸다.
+- Redux Store가 Action 객체를 받으면 Store의 상태 값 변경
+- 변경된 상태값에 의해 상태를 이용하고 있는 컴포넌트가 변경
+- 액션은 Store에 보내는 일종의 인풋같은 것
