@@ -1,6 +1,6 @@
 import { ADD_TODO } from "./Action";
 
-function todoApp(previousState, action) {
+export function todoApp(previousState, action) {
   return previousState;
 } // 이러면 액션을 받더라도 return이 previousState라서 아무 변화가 없음
 
