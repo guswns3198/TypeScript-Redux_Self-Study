@@ -9,7 +9,7 @@
 2. {type: 'TEST', params: 'hello'} => payload 있는 액션  
 
 - type만 필수 프로퍼티이며 type은 string 이다.  
-
+  
 ## :pencil2: Redux의 액션 생성자란?  
 
 - function 액션생성자(...agrs) {
