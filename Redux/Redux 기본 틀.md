@@ -55,3 +55,16 @@ const counterReducer = (state, action) => {
   }
 }
 ```
+  
+## :pencil2: Store  
+  
+```
+// 스토어는 상태와 리듀서를 포함하는 객체
+// 스토어는 앱에서 단 하나만 가질 수 있음
+```
+  
+## :pencil2: Dispatch  
+  
+```
+// Dispatch는 액션을 발생시키는 스토어의 내장함수 중 하나
+```
