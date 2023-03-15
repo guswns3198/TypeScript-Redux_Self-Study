@@ -27,9 +27,9 @@
   type: "ADD_HELLO",
   text: "Hello World"
 }
+```
   
 ## :pencil2: Action 생성함수  
-
 ```
 // 액션 생성함수는 액션을 만드는 함수
 
@@ -37,6 +37,7 @@ export const addHello = text => ({
   type: "ADD_HELLO",
   text
 })
+```
   
 ## :pencil2: Reducer  
   
@@ -52,15 +53,5 @@ const counterReducer = (state, action) => {
     default:
       return state;
   }
-}  
-  
-
-```
-
-```
-
-```
-
-```
-
+}
 ```
