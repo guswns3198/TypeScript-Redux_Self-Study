@@ -17,3 +17,50 @@
 4. 변경된 state 값이 View(UI)로 전달
   
 위와같은 일련의 과정을 통해 상태를 다루게 된다.
+  
+## :pencil2: Action  
+
+```
+// 상태에 변화가 필요할 때 액션을 발생시키게 되는데 이때 액션은 하나의 객체로 전달
+
+{
+  type: "ADD_HELLO",
+  text: "Hello World"
+}
+  
+## :pencil2: Action 생성함수  
+
+```
+// 액션 생성함수는 액션을 만드는 함수
+
+export const addHello = text => ({
+  type: "ADD_HELLO",
+  text
+})
+  
+## :pencil2: Reducer  
+  
+```
+// 리듀서는 상태를 변화시키는 함수
+// 현재의 상태(state)와 액션(action) 두가지의 인자를 통해 새로운 상태를 반환
+
+const counterReducer = (state, action) => {
+  switch(action.type) {
+    case 'INCREASE': return state + 1;
+    case 'DECREASE': return state - 1;
+    
+    default:
+      return state;
+  }
+}  
+  
+
+```
+
+```
+
+```
+
+```
+
+```
